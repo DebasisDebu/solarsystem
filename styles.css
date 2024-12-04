@@ -1,0 +1,174 @@
+body{
+    background-image: url(https://cdn.pixabay.com/photo/2017/07/25/19/27/star-2539245_1280.jpg);
+    background-attachment: fixed;
+}
+#neptune{
+    height: 900px;
+    width: 900px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#nep_pic{
+    position: absolute;
+    top: 30px;
+    left: 500px;
+    animation: rotate 10s linear infinite;
+
+
+}
+#uranus{
+    height: 800px;
+    width: 800px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#ura_pic{
+    position: absolute;
+    top: 40px;
+    left: 600px;
+    animation: rotate 10s linear infinite;
+}
+#saturn{
+    height: 700px;
+    width: 700px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#sat_pic{
+    position: absolute;
+    top: 90px;
+    left: 700px;
+    animation: rotate 10s linear infinite;
+}
+#jupiter{
+    height: 600px;
+    width: 600px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#jup_pic{
+    position: absolute;
+    top: 150px;
+    left: 800px;
+    animation: rotate 10s linear infinite;
+}
+
+#earth{
+    height: 500px;
+    width: 500px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#earth_pic{
+    position: absolute;
+    top: 240px;
+    left: 900px;
+    animation: rotate 10s linear infinite;
+}
+
+#mars{
+    height: 400px;
+    width: 400px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#mars_pic{
+    position: absolute;
+    top: 340px;
+    left: 930px;
+    animation: rotate 10s linear infinite;
+}
+
+#venus{
+    height: 300px;
+    width: 300px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#venus_pic{
+    position: absolute;
+    top: 420px;
+    left: 920px;
+    animation: rotate 10s linear infinite;
+}
+
+#mercury{
+    height: 200px;
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+    padding: 50px;
+}
+#mercury_pic{
+    position: absolute;
+    top: 480px;
+    left: 880px;
+    animation: rotate 10s linear infinite;
+}
+#sun{
+    height: 100px;
+    width: 100px;
+    padding: 50px;
+}
+h3{
+    display: none;
+}
+#nep_pic:hover h3{
+    display: inline;
+    color: red;
+    position: static;
+}
+#ura_pic:hover h3{
+    display: inline;
+    color: red;
+    position: static;
+}
+#sat_pic:hover h3{
+    display: inline;
+    color: red;
+    position: static;
+}
+#jup_pic:hover h3{
+    display: inline;
+    color: red;
+    position: static;
+}
+#earth_pic:hover h3{
+    display: inline;
+    color: red;
+    position: static;
+}
+#mars_pic:hover h3{
+    display: inline;
+    color: red;
+    position: static;
+}
+#venus_pic:hover h3{
+    display: inline;
+    color: red;
+    position: static;
+}
+#mercury_pic:hover h3{
+    display: inline;
+    color: red;
+    position: static;
+}
+
+
+
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
